@@ -17,3 +17,57 @@ span
 {
     color: black; 
 }
+
+
+#heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+  }
+  #heart:before,
+  #heart:after {
+    position: absolute;
+    content: "";
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+  #heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  } 
+
+  #talkbubble {
+    width: 120px;
+    height: 80px;
+    background: red;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+  #talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid red;
+    border-bottom: 13px solid transparent;
+  }
+
+
+  #moon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 red;
+  }

@@ -1,0 +1,15 @@
+:root {
+    --text: #5362F6; /* Blue */
+    --shadow: #E485F8; /* Pink */
+  }
+  
+  #playful {
+    color: var(--text);
+    text-shadow: 6px 6px var(--shadow);
+    font-size: 20em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  /*https://css-tricks.com/creating-playful-effects-with-css-text-shadows/*/ 
+
+  

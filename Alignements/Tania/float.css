@@ -1,0 +1,38 @@
+h1{
+    background-color: burlywood;
+    box-sizing: border-box;
+}
+
+
+h2, h3{
+    background-color: rosybrown;
+    border-style: ridge;
+    border-color: crimson;
+    color: white;
+    padding: 12px;
+
+}
+
+.p1{
+    text-align: justify;
+    width: 700px;
+    margin-bottom: 20em; 
+}
+
+.baliimg{
+    height: 200px;
+    width: 200px;
+    float: left; 
+}
+
+.p2 {
+    text-align: justify;
+    width: 700px;
+}
+
+.florenceimg{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+

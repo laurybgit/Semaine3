@@ -1,0 +1,61 @@
+li
+{
+    list-style: none;
+    display: flex; 
+    justify-content: stretch;
+}
+
+h2
+{
+    background-color: green;
+    color: white;
+    margin: 1em;
+    padding: 1em;
+}
+
+h3
+{
+    text-align: left;
+    color: green;
+}
+
+.carre1
+{
+    width: 30em;
+    float: right;
+    margin-left: 1em; 
+}
+
+.carre2
+{
+    width: 30em;
+    float: left;
+}
+
+.p1
+{
+    text-align: left;
+    padding-bottom: 10em; 
+}
+
+.p2
+{
+    text-align: right; 
+    margin: 1em; 
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1592244133126-1d823b3a8b81?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  

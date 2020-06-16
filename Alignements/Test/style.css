@@ -1,8 +1,27 @@
+body 
+{
+    display: flexbox; 
+    align-self: center;
+    margin: 5em; 
+}
+
+ul 
+{
+    display: inline-block;
+}
+
+
 li
 {
     list-style: none;
-    display: flex; 
-    justify-content: stretch;
+    display: inline;  
+    justify-content: space-evenly;
+    margin-inline-start: 30em; 
+}
+
+h1
+{
+    display: inline;
 }
 
 h2

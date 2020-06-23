@@ -1,0 +1,9 @@
+.wrap
+{
+    flex-wrap: wrap;
+}
+
+img
+{
+    width: 1000px;
+}
